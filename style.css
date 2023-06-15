@@ -16,7 +16,7 @@ section{
     background-position: center;
 }
 
-nav{
+section nav{
     width: 100%;
     display: flex;
     align-items: center;
@@ -28,10 +28,38 @@ nav{
     z-index: 100;
 }
 
-nav .logo img{
+section nav .logo img{
     width: 100px;
     cursor: pointer;
     margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #089da1;
+}
+
+section nav .social_icon i{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+    color: #089da1;
+    cursor: pointer;
 }
 
 section .main{
@@ -481,7 +509,7 @@ section .main .main_img img{
 
 footer{
     width: 100%;
-    background: #1e5266;
+    background: #303b3f;
 }
 
 footer .footer_main{
