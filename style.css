@@ -14,7 +14,7 @@ section nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #089da1;
+    box-shadow: 0 0 10px #f6d970;
     background: #fff;
     position: fixed;
     left: 0;
@@ -43,7 +43,7 @@ section .main h1{
 }
 
 section .main h1 span{
-    color: #089da1;
+    color: #f6d970;
 }
 
 section .main p{
@@ -61,8 +61,6 @@ section .main .main_img img{
     top: 90px;
     left: 20px;
 }
-
-/*arrivals*/
 
 .arrivals{
     width: 100%;
@@ -94,7 +92,7 @@ section .main .main_img img{
 }
 
 .arrivals .arrivals_box .arrivals_card:hover{
-    box-shadow: 0 0 5px #089da1;
+    box-shadow: 0 0 5px #f6d970;
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_image{
@@ -124,14 +122,14 @@ section .main .main_img img{
     margin: 8px 0;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_icon{
-    color: #089da1;
+.arrivals .arrivals_box .arrivals_card .arrivals_tag{
+    color: #f6d970;
     margin-bottom: 18px;
 }
 
 .arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn{
     padding: 8px 20px;
-    border: 2px solid #089da1;
+    border: 2px solid #f6d970;
     text-decoration: none;
     color: #000;
 }
